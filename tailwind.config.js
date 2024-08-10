@@ -15,7 +15,8 @@ export default {
     fontFamily:{
       'poppins' : ['Poppins', 'sans-serif'],
       'work-sans' : ['Work Sans', 'sans-serif'],
-      'Roboto-txt': ['Roboto', 'sans-serif']
+      'Roboto-txt': ['Roboto', 'sans-serif'],
+      'Cannon' : ['Canon','sans-serif']
     },
    
   },
