@@ -11,7 +11,7 @@ function Hero() {
             <p className="text-gray-500 font-poppins text-xl">EST 2002</p>
             <div className="w-44 h-0.5 bg-gray-500"></div>
           </div>
-          <div className="hero-text font-Roboto-txt font-extrabold">
+          <div className="hero-text font-Herokid font-extrabold">
             <h1 className="text-main-green text-9xl">SPACE</h1>
             <h1 className="text-9xl">SHIRT</h1>
           </div>
