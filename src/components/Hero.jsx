@@ -16,11 +16,11 @@ function Hero() {
             <h1 className="text-9xl">SHIRT</h1>
           </div>
           <p className="mt-4 font-poppins text-gray-500">
-            COMFORTABLE PRODUCTS CREATED BY HIGHLY SKILLED <br />
+            COMFORTABLE PRODUCTS CREATED BY HIGHLY SKILLED <br/>
             CRAFTMANSHIP IN EACH OF OUR PRODUCTS
           </p>
           <div className="flex gap-6 mt-6 ">
-            <button className="w-40 bg-yellow-400 h-12 rounded-3xl font-Roboto-txt text-sm font-bold">
+            <button className="w-40 bg-yellow-600 h-12 rounded-3xl font-Roboto-txt text-sm font-bold">
               BEST SELLERS
             </button>
             <button className="rounded-3xl w-24 font-bold font-Roboto-txt text-sm border-solid border-black border ">

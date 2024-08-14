@@ -15,7 +15,7 @@ export default function HeroCard({ image, width,name }) {
       {hidden ? null : 
         <div
           id="herocardicon"
-          className="rounded-full w-20 h-20 items-center flex justify-center bg-yellow-400 absolute"
+          className="rounded-full w-20 h-20 items-center flex justify-center bg-yellow-600 absolute"
           style={{ bottom: "21rem", zIndex: "100" }}
         >
           <FontAwesomeIcon icon={faShoppingCart} />
