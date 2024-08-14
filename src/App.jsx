@@ -3,8 +3,8 @@ import "./output.css";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import SliderMain from "./components/SliderMain";
-import HeroCard from "./components/HeroCard";
 import CardSlider from "./components/CardSlider";
+import Gallery from "./components/Gallery";
 
 
 
@@ -16,6 +16,7 @@ function App() {
       <Hero />
       <SliderMain />
       <CardSlider/>
+      <Gallery/>
     </>
   );
 }

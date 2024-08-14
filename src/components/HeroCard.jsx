@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 
-export default function HeroCard({ image, width }) {
+export default function HeroCard({ image, width,name }) {
   const [hidden, setHidden] = useState(true);
   return (
     <div
@@ -30,7 +30,7 @@ export default function HeroCard({ image, width }) {
           className="font-Cannon w-36 h-12 bg-white rounded-2xl flex justify-center items-center absolute"
           style={{ top: "22.5rem" }}
         >
-          T-SHIRT
+          {name}
         </div>
       }
     </div>

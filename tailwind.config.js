@@ -13,6 +13,11 @@ module.exports = withMT({
     extend: {
       colors : {
         'main-green' : 'rgb(89,126,126)',
+     },
+     spacing : {
+       '33' : "33rem",
+       'big' : "28rem",
+       'minus':"-30px"
      }
     },
     fontFamily:{
