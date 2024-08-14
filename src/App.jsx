@@ -6,6 +6,7 @@ import SliderMain from "./components/SliderMain";
 import CardSlider from "./components/CardSlider";
 import Gallery from "./components/Gallery";
 import Ending from "./components/Ending";
+import Footer from "./components/Footer";
 
 
 
@@ -19,6 +20,7 @@ function App() {
       <CardSlider/>
       <Gallery/>
       <Ending/>
+      <Footer/>
     </>
   );
 }
