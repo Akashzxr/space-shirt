@@ -16,15 +16,23 @@ export default function CardSlider() {
         modules={[Navigation, Autoplay]}
         effect={"coverflow"}
         spaceBetween={-2}
-        slidesPerView={4}
+       // slidesPerView={4}
         autoplay={{
           delay: 2500,
           disableOnInteraction: false,
         }}
+        breakpoints={{
+          360:{
+            slidesPerView:2,
+          },
+          800:{
+            slidesPerView: 4
+          }
+        }}
         loop={true}
         onSlideChange={() => console.log("slide change")}
         onSwiper={(swiper) => console.log(swiper)}
-        className="relative bottom-56 pt-32 pb-32"
+        className="relative bottom-b-27 pt-32 pb-32 pl-5 sm:pl-10 sm:bottom-52"
       >
         <SwiperSlide>
           <HeroCard image={"/tshirt-1.png"} width={"15rem"} name={"T-SHIRT"}/>
@@ -51,7 +59,7 @@ export default function CardSlider() {
           <HeroCard image={"/cap2.png"} width={"13rem"} name={"CAP"} />
         </SwiperSlide>
       </Swiper>
-      <button className="font-Cannon max-w-52 w-52 h-12 relative bottom-52 rounded-3xl border border-solid border-black border-spacing-1 mx-auto block">
+      <button className="font-Cannon max-w-52 w-52 h-12 relative bottom-96 rounded-3xl border border-solid border-black border-spacing-1 mx-auto block sm:bottom-52">
         SEE ALL PRODUCT
       </button>
     </div>

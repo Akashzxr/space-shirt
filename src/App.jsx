@@ -15,7 +15,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <Hero />
+      <Hero/>
       <SliderMain />
       <CardSlider/>
       <Gallery/>

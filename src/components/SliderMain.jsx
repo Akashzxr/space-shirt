@@ -1,4 +1,4 @@
-import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { faArrowLeft, faArrowRight, faL } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import Model from "./Model";
@@ -16,22 +16,23 @@ import { AmbientLight, PointLight } from "three";
 function SliderMain() {
   const ref = useRef();
   return (
-    <div className="flex items-center justify-center gap-3 h-96 ">
+    <div className="flex items-center justify-center gap-3 h-96 flex-col sm:flex-row">
       <div className="flex items-center  text-2xl gap-4">
         <FontAwesomeIcon icon={faArrowLeft} />
         <h3 className="font-Cannon">MOON</h3>
       </div>
 
       <div className="max-w-lg w-full h-full">
-        <Canvas dpr={[1, 2]} camera={{ fov: 50 }}>
+        <Canvas dpr={[1, 2]} camera={{ fov: 50 }} >
           <Suspense fallback={null}>\
             <Stage
               controls={ref}
               environment="city"
-              
+              shadows={false}
+
             >
               false
-              <Model />
+              <Model/>
               false
             </Stage>
           </Suspense>

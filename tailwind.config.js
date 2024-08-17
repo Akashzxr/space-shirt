@@ -17,7 +17,15 @@ module.exports = withMT({
      spacing : {
        '33' : "33rem",
        'big' : "28rem",
-       'minus':"-30px"
+       'minus':"-30px",
+       'b-27' : "27rem",
+       'b-21' : "21rem",
+       't-22.5': "22.5rem",
+       'minus-218' : "-218px",
+       'l-35' : "35rem",
+       'l-48' : "48rem",
+       'l-67' : "67rem",
+       'l-78' : "78rem",
      }
     },
     fontFamily:{
@@ -28,6 +36,7 @@ module.exports = withMT({
       'Chivo' : ['Chivo', 'sans-serif'],
       'Herokid' : ['Herokid','sans-serif']
     },
+    
    
   },
   plugins: [],
